@@ -1,3 +1,5 @@
 # Yuan_CSCI2270_FinalProject
-FinalProject
-dafdfasdfas 
+In this project, I intend to develop a navigation system that find the nearest path between two locations. The path finding algorithm I intend to employ is the A star algorithm.  Every city has its own node which store its longitude and altitude, distance between its nearest cities along with road name. The cities’ connection grill will be stored as graph. In A star algorithm, there are three value to be calculated, heuristic value H, travel expense G and total value F which equals H + G. H will be calculated by longitude and altitude. G value will be pass along the journey. Two lists will be created, an open list and a close list. From the starting point, the algorithm will put starting point into close list and calculate the its nearest nodes’ F value and put these nodes inside an open list. Put this node into the close list. Then sort the open list, and choose the lowest F value node and reevaluate the F value of the nodes around it. There will be nodes that repeat, leave them unchanged if its previous G value is lower than the new G value.  Then re-sort the open list and repeat the process above until it finds the destination node.  
+The two data structures used here are array and graph. The open list will be stored in array and the “map” will be stored as graph. 
+The functions of this program include inserting/deleting city nodes, add/delete path between two nodes and calculate the quickest path. The program will print out the path with road name and distance. 
+
