@@ -7,10 +7,11 @@ In this project, I intend to develop a navigation system that find the nearest p
 The data structures used here are array queue and graph. The open list will be stored in array and the “map” will be stored as graph. The functions of this program include inserting/deleting city nodes, add/delete path between two nodes and calculate the quickest path. The program will print out the path with road name and the total distance. 
 
 ***Instruction:
+***Follow the printed instruction and you might want to prepare some information if you wish to insert anything.
 
 The program contains pre-installed map that contains most major cities to north of denver inside Colorado. The edges between cities can be view write after the program open. The city name is not capital sensitive, but you need to spell write and use space if the name contains more than two words. 
 
-***Follow the printed instruction and you might want to prepare some information if you wish to insert anything.
+To navigate, simply following the print out message to input the name of your starting and destination city. 
 
 To insert city vertex, type in the coordinate of the city, one city it connected to that already inside the map, the major road name between two cities and the total distance. 
 
