@@ -34,7 +34,7 @@ I wrote it in VM of Linux.
 
 ***Enhancement
 
-If I can pull information directly from google. This program can perform A star algorithm all around Ammerica. 
+If I can pull information directly from google and form it into correct format. Techniqualy, this program can perform A star algorithm all around Ammerica. 
 
 ***Writen by Hao Yuan
 
